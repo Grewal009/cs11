@@ -15,7 +15,7 @@ public class Student
         StudentId = studentId;
     }
 
-    public void PrintInfo()
+    public void PrintStudentInfo()
     {
         Console.WriteLine("Student Info:");
         Console.WriteLine($"Name:{Name}, Age:{Age}, Course:{Course}, StudentId:{StudentId}");   
