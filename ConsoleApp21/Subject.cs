@@ -4,9 +4,9 @@ public class Subject
 {
     public string SubjectId { get; private set; }
     public string SubjectName { get; private set; }
-    public string SubjectPoints { get; private set; }
+    public int SubjectPoints { get; private set; }
 
-    public Subject(string subjectId, string subjectName, string subjectPoints)
+    public Subject(string subjectId, string subjectName, int subjectPoints)
     {
         SubjectId = subjectId;
         SubjectName = subjectName;

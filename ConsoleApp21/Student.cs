@@ -3,11 +3,11 @@ namespace ConsoleApp21;
 public class Student
 {
     public string Name { get; private set; }
-    public string Age { get; private set; }
+    public int Age { get; private set; }
     public string Course { get; private set; }
     public string StudentId { get; private set; }
 
-    public Student(string name, string age, string course, string studentId)
+    public Student(string name, int age, string course, string studentId)
     {
         Name = name;
         Age = age;
