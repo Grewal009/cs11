@@ -15,7 +15,6 @@ public class Grade
 
     public void PrintGradeInfo()
     {
-        Console.WriteLine("Grade Info:");
-        Console.WriteLine($"Student Id:{student.StudentId}, Subject Id:{subject.SubjectId}, Result:{GradePoints}");
+        Console.WriteLine($"Student Id:{student.StudentId}, Subject Id:{subject.SubjectId}, Grade points:{GradePoints}");
     }
 }

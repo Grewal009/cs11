@@ -15,7 +15,6 @@ public class Subject
 
     public void PrintSubjectInfo()
     {
-        Console.WriteLine("Subject Info:");
         Console.WriteLine($"Subject Id:{SubjectId}, Subject Name:{SubjectName}, Subject Points:{SubjectPoints}");
     }
 }

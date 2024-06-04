@@ -43,7 +43,6 @@ public class Student
         {
             sum += grade.GradePoints;
         }
-
         return sum / GradeList.Count;
     }
 
@@ -60,13 +59,28 @@ public class Student
         {
             sum += subject.SubjectPoints;
         }
-
         return sum;
     }
 
+    public void ShowAllSubjects()
+    {
+        foreach (var subject in SubjectList)
+        {
+            subject.PrintSubjectInfo();
+        }
+    }
+
+    public void ShowAllGrades()
+    {
+        foreach (var grade in GradeList)
+        {
+            grade.PrintGradeInfo();
+        }
+    }
+
+
     public void PrintStudentInfo()
     {
-        Console.WriteLine("Student Info:");
         Console.WriteLine(
             $"Name:{Name}, Age:{Age}, Course:{Course}, StudentId:{StudentId}");
     }
