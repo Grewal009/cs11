@@ -4,9 +4,9 @@ public class Grade
 {
     public Student student { get; private set; }
     public Subject subject { get; private set; }
-    public int GradePoints { get; private set; }
+    public double GradePoints { get; private set; }
 
-    public Grade(Student student, Subject subject, int gradePoints)
+    public Grade(Student student, Subject subject, double gradePoints)
     {
         this.student = student;
         this.subject = subject;
